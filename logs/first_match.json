@@ -1,0 +1,344 @@
+[
+    {
+        "round": 1,
+        "queries": [
+            {
+                "agent": "C2",
+                "question": "Which method did the culprit use?"
+            },
+            {
+                "agent": "C3",
+                "question": "Which method did the culprit use?"
+            },
+            {
+                "agent": "C4",
+                "question": "Which method did the culprit use?"
+            }
+        ],
+        "answers": [
+            {
+                "agent": "GM",
+                "answer": {
+                    "culprit": "C1"
+                }
+            },
+            {
+                "agent": "GM",
+                "answer": {
+                    "node": "Node1"
+                }
+            },
+            {
+                "agent": "GM",
+                "answer": {
+                    "method": "HackC"
+                }
+            }
+        ],
+        "beliefs": {
+            "C2": {
+                "C1": 0.5714285714285714,
+                "C2": 0.14285714285714285,
+                "C3": 0.14285714285714285,
+                "C4": 0.14285714285714285
+            },
+            "C3": {
+                "C1": 0.25,
+                "C2": 0.25,
+                "C3": 0.25,
+                "C4": 0.25
+            },
+            "C4": {
+                "C1": 0.25,
+                "C2": 0.25,
+                "C3": 0.25,
+                "C4": 0.25
+            }
+        }
+    },
+    {
+        "round": 2,
+        "queries": [
+            {
+                "agent": "C2",
+                "question": "Which method did the culprit use?"
+            },
+            {
+                "agent": "C3",
+                "question": "Which method did the culprit use?"
+            },
+            {
+                "agent": "C4",
+                "question": "Which method did the culprit use?"
+            }
+        ],
+        "answers": [
+            {
+                "agent": "GM",
+                "answer": {
+                    "culprit": "C1"
+                }
+            },
+            {
+                "agent": "GM",
+                "answer": {
+                    "culprit": "C1"
+                }
+            },
+            {
+                "agent": "GM",
+                "answer": {
+                    "culprit": "C1"
+                }
+            }
+        ],
+        "beliefs": {
+            "C2": {
+                "C1": 0.7692307692307693,
+                "C2": 0.07692307692307693,
+                "C3": 0.07692307692307693,
+                "C4": 0.07692307692307693
+            },
+            "C3": {
+                "C1": 0.5714285714285714,
+                "C2": 0.14285714285714285,
+                "C3": 0.14285714285714285,
+                "C4": 0.14285714285714285
+            },
+            "C4": {
+                "C1": 0.5714285714285714,
+                "C2": 0.14285714285714285,
+                "C3": 0.14285714285714285,
+                "C4": 0.14285714285714285
+            }
+        }
+    },
+    {
+        "round": 3,
+        "queries": [
+            {
+                "agent": "C2",
+                "question": "Which method did the culprit use?"
+            },
+            {
+                "agent": "C3",
+                "question": "Which method did the culprit use?"
+            },
+            {
+                "agent": "C4",
+                "question": "Which method did the culprit use?"
+            }
+        ],
+        "answers": [
+            {
+                "agent": "GM",
+                "answer": {
+                    "node": "Node1"
+                }
+            },
+            {
+                "agent": "GM",
+                "answer": {
+                    "culprit": "C1"
+                }
+            },
+            {
+                "agent": "GM",
+                "answer": {
+                    "node": "Node1"
+                }
+            }
+        ],
+        "beliefs": {
+            "C2": {
+                "C1": 0.7692307692307692,
+                "C2": 0.07692307692307691,
+                "C3": 0.07692307692307691,
+                "C4": 0.07692307692307691
+            },
+            "C3": {
+                "C1": 0.7692307692307693,
+                "C2": 0.07692307692307693,
+                "C3": 0.07692307692307693,
+                "C4": 0.07692307692307693
+            },
+            "C4": {
+                "C1": 0.5714285714285714,
+                "C2": 0.14285714285714285,
+                "C3": 0.14285714285714285,
+                "C4": 0.14285714285714285
+            }
+        }
+    },
+    {
+        "round": 4,
+        "queries": [
+            {
+                "agent": "C2",
+                "question": "Which method did the culprit use?"
+            },
+            {
+                "agent": "C3",
+                "question": "Which method did the culprit use?"
+            },
+            {
+                "agent": "C4",
+                "question": "Which method did the culprit use?"
+            }
+        ],
+        "answers": [
+            {
+                "agent": "GM",
+                "answer": {
+                    "node": "Node1"
+                }
+            },
+            {
+                "agent": "GM",
+                "answer": {
+                    "node": "Node1"
+                }
+            },
+            {
+                "agent": "GM",
+                "answer": {
+                    "culprit": "C1"
+                }
+            }
+        ],
+        "beliefs": {
+            "C2": {
+                "C1": 0.7692307692307693,
+                "C2": 0.07692307692307691,
+                "C3": 0.07692307692307691,
+                "C4": 0.07692307692307691
+            },
+            "C3": {
+                "C1": 0.7692307692307692,
+                "C2": 0.07692307692307691,
+                "C3": 0.07692307692307691,
+                "C4": 0.07692307692307691
+            },
+            "C4": {
+                "C1": 0.7692307692307693,
+                "C2": 0.07692307692307693,
+                "C3": 0.07692307692307693,
+                "C4": 0.07692307692307693
+            }
+        }
+    },
+    {
+        "round": 5,
+        "queries": [
+            {
+                "agent": "C2",
+                "question": "Which method did the culprit use?"
+            },
+            {
+                "agent": "C3",
+                "question": "Which method did the culprit use?"
+            },
+            {
+                "agent": "C4",
+                "question": "Which method did the culprit use?"
+            }
+        ],
+        "answers": [
+            {
+                "agent": "GM",
+                "answer": {
+                    "node": "Node1"
+                }
+            },
+            {
+                "agent": "GM",
+                "answer": {
+                    "method": "HackC"
+                }
+            },
+            {
+                "agent": "GM",
+                "answer": {
+                    "culprit": "C1"
+                }
+            }
+        ],
+        "beliefs": {
+            "C2": {
+                "C1": 0.7692307692307693,
+                "C2": 0.07692307692307691,
+                "C3": 0.07692307692307691,
+                "C4": 0.07692307692307691
+            },
+            "C3": {
+                "C1": 0.7692307692307693,
+                "C2": 0.07692307692307691,
+                "C3": 0.07692307692307691,
+                "C4": 0.07692307692307691
+            },
+            "C4": {
+                "C1": 0.88,
+                "C2": 0.04,
+                "C3": 0.04,
+                "C4": 0.04
+            }
+        }
+    },
+    {
+        "round": 6,
+        "queries": [
+            {
+                "agent": "C2",
+                "question": "Which method did the culprit use?"
+            },
+            {
+                "agent": "C3",
+                "question": "Which method did the culprit use?"
+            },
+            {
+                "agent": "C4",
+                "question": "Which method did the culprit use?"
+            }
+        ],
+        "answers": [
+            {
+                "agent": "GM",
+                "answer": {
+                    "culprit": "C1"
+                }
+            },
+            {
+                "agent": "GM",
+                "answer": {
+                    "culprit": "C1"
+                }
+            },
+            {
+                "agent": "GM",
+                "answer": {
+                    "culprit": "C1"
+                }
+            }
+        ],
+        "beliefs": {
+            "C2": {
+                "C1": 0.88,
+                "C2": 0.039999999999999994,
+                "C3": 0.039999999999999994,
+                "C4": 0.039999999999999994
+            },
+            "C3": {
+                "C1": 0.88,
+                "C2": 0.039999999999999994,
+                "C3": 0.039999999999999994,
+                "C4": 0.039999999999999994
+            },
+            "C4": {
+                "C1": 0.9387755102040816,
+                "C2": 0.02040816326530612,
+                "C3": 0.02040816326530612,
+                "C4": 0.02040816326530612
+            }
+        }
+    }
+]

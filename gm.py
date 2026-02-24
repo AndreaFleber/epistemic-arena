@@ -13,12 +13,20 @@ class GM:
         self.culprit = "C1"
         method = random.choice(self.methods)
         node = random.choice(self.nodes)
-        self.solution = {"culprit": self.culprit, "method": method, "node": node}
+        self.solution = {
+            "culprit": self.culprit,
+            "method": method,
+            "node": node
+        }
         return self.solution
 
     def answer_query(self, agent_name, query):
         if agent_name == self.culprit:
-            return f"You know: {self.solution}"
+            return {
+                "culprit": self.culprit,
+                "method": self.solution["method"],
+                "node": self.solution["node"]
+            }
         else:
             key = random.choice(list(self.solution.keys()))
             return {key: self.solution[key]}
